@@ -13,9 +13,6 @@
 
 //You should have received a copy of the GNU Affero General Public License
 //along with this program.  If not, see [http://www.gnu.org/licenses/].
-function hereDoc(func) {
-	return func.toString().split(/\n/).slice(1, -1).join('\n');
-}
 document.write(hereDoc(function(){/*
 <style type="text/css">
 * {
