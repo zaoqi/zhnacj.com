@@ -39,7 +39,7 @@ document.write(hereDoc(function(){/*
 </style>
 <div class="topbar">
     <ul class="toplist">
-        <li><a href="index.html">首页</a></li>
+        <li><a href="index.html">中南财经网</a></li>
         <li><a href="gp.html">股票</a></li>
         <li><a href="cj.html">财经</a></li>
         <li><a href="bk.html">博客</a></li>
