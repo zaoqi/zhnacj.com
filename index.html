@@ -25,14 +25,14 @@
  </head> 
  <body>
   <script type="text/javascript" >
-  document.write(download("header.html"));
-  var page = "sy";
-	var a = window.location.href.split("?");
-	if (2 == a.length) {
-		page = a[1];
-	}
-	document.write(download(page+".html"));
-  document.write(download("footer.html"));
+downloadAndWrite("header.html");
+var page = "sy";
+var a = window.location.href.split("?");
+if (2 == a.length) {
+	page = a[1];
+}
+downloadAndWrite(page + ".html");
+downloadAndWrite("footer.html");
 	</script>
  </body>
 </html>
