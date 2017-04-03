@@ -1,0 +1,8 @@
+#!/bin/sh
+if [ ! -f cabal.sandbox.config ] ;then
+	cabal sandbox init
+fi
+cabal build
+for f in rts.js lib.js out.js runmain.js index.html ;do
+	cp "./dist/build/zhnacj-com/zhnacj-com.jsexe/$f" ./
+done
